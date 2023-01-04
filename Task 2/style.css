@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  width: 80vw;
+  margin-inline: auto;
+}
+
+/* style of header  */
+
+header {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+header .svg {
+  margin-left: 43%;
+}
+header h4 {
+  font-size: 1.375rem;
+  text-align: center;
+}
+header p {
+  font-size: 0.9375rem;
+  text-align: center;
+  color: gray;
+}
+header .button-header {
+  text-align: center;
+}
+header .ios {
+  width: 20%;
+  height: 50%;
+  border: none;
+  border-radius: 50px;
+  background-color: #00c5a2;
+}
+header .mac {
+  width: 20%; 
+  height: 20%;
+  border: none;
+  border-radius: 50px;
+  background-color: #7d30ff;
+}
+
+
+/* style of main  */
+main {
+  width: 100%;
+}
+/* style text-main  */
+.text-main{
+  padding: 3rem 0rem;
+}
+.text-main h2{
+  margin-bottom: 1rem;
+}
+main h4 {
+  font-size: 1.375rem;
+  text-align: center;
+}
+
+main p {
+  font-size: 0.9375rem;
+  text-align: center;
+  color: gray;
+}
+.first, .second{
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0rem;
+}
+main .image {
+  width: 50%;
+  float: left;
+  height: 100%;
+
+
+}
+main .image  img{
+  width: 100%;
+}
+main .info{
+  float: right;  
+  width: 50%;
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main h6 {
+  color: gray;
+}
+.text-main h2 {
+  font-size: 1.375rem;
+  text-align: center;
+}
+.text-main h3{
+  font-size: 0.9375rem;
+  text-align: center;
+  color: gray;
+}
+.clear{
+  clear: both;
+}
+.second img{
+  width: 100%;
+}
+.second {
+  height: 100vh;
+}
+
+.image-2{
+  text-align: center;
+}
+.image-2 img{
+  width: 60%;
+}
+
+.third {
+  height: 70vh;
+}
+
+
+
+.third-1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.text-main h5 {
+  text-align: center;
+}
+.text-main h6{
+  text-align: center;
+  color: gray;
+}
+.svg {
+  margin: 0rem 7rem ;
+}
+
+.fourth{
+  font-size: 3px;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  height: 27vh;
+  margin-top: 7rem;
+}
+footer svg {
+  font-size: 5rem;
+  font-weight: bold;
+}
+footer .first{
+  width: 40%;
+  height: 100%;
+}
+footer .second {
+  width: 20%;
+  height: 100%;
+}
+footer .svg {
+  font-size: 5px;
+}
