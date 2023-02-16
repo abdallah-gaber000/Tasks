@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,22 +16,29 @@ header .head {
   /* border: 1px solid red; */
   margin-top: 5px;
 }
-head img {
+.head img {
   margin-right: 50px;
 }
-header   {
+.head button {
+  border-style: none;
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: #fe52c0;
+  border-radius: 20px;
+}
+header {
   background-color: #fff;
   border-style: none;
-  width: 100px;
+  width: 100%;
   color: #fe52c0;
   border: 1px solid #fe52c0;
   border-radius: 25px;
 }
 header button:hover {
-  background-color: #fe52c0;
-  color: black;
+  background-color: aliceblue;
 }
-header .head-1{
+header .head-1 {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -41,7 +48,7 @@ header .head-2 {
   width: 40%;
 }
 
-.head-1 img{
+.head-1 img {
   width: 50%;
   height: 100%;
   font-size: 20%;
@@ -58,12 +65,12 @@ header p {
   height: 40px;
   color: black;
   background-color: #fe52c0;
+  border-radius: 20px;
   margin-top: 5%;
 }
-.head-1 button:hover{
+.head-1 button:hover {
   background-color: aliceblue;
 }
-
 
 main .con {
   width: 100%;
@@ -73,7 +80,7 @@ main .first {
   width: 90%;
   /* border: 1px solid blueviolet; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   margin-left: 5%;
   margin-top: 4%;
@@ -152,7 +159,7 @@ main .first .first-1 {
 .fourth h3 {
   text-align: center;
 }
-.fourth button:hover{
+.fourth button:hover {
   background-color: aliceblue;
 }
 
@@ -174,7 +181,7 @@ footer .first .first-1 {
   width: 50%;
 }
 footer .social {
-  margin: 20px; 
+  margin: 20px;
 }
 footer .first .first-2 {
   width: 45%;
@@ -199,7 +206,7 @@ footer .first-2 button {
   background-color: #fe52c0;
 }
 @media (max-width: 500px) {
-  header .head-1{
+  header .head-1 {
     display: block;
     text-align: center;
   }
